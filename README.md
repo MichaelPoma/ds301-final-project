@@ -10,7 +10,7 @@
 **Python Version:** 3.8.12\
 **Installations:** XXX\
 **Packages:** tensorflow, keras, sklearn, pandas, numpy, matplotlib\
-**Source Reference:** [Kaggle Notebook](https://towardsdatascience.com/cnn-sentiment-analysis-9b1771e7cdd6)
+**Source Reference:** [Kaggle Notebook](https://www.kaggle.com/datasets/gpreda/elon-musk-tweets)
 
 
 ## Description of Repository and Code Structure
