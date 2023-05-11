@@ -1,8 +1,9 @@
 # Elon Musk Tweet Sentiment Analysis
 
-- Description goes here
-- Description goes here
-- Description goes here
+- The project focused on the time period during Musk’s acquisition of Twitter from July 2022 to November 2022.
+- Using Natural Language Processing, we apply the necessary unsupervised machine learning and deep learning techniques on the unlabelled Twitter data. 
+- With such labeled Tweets, we are able to successfully classify Musk's Tweets for either positive or negative sentiment.
+- Going forward, we hop to continue to explore the impact Musk has in other fields like the stock market, regulatory policy, innovation, etc.
 
 
 ## Code and Resources Used
@@ -16,20 +17,21 @@
 
 #### Repository
 
-- Desc of repo (files included)
-- Desc of repo (imgs/pngs represent what)
-- Desc of repo (notebooks)
-- Desc of repo (purpose of including files...?)
+- Utilized both Unsupervised clustering and Supervised classification/deep learning ML techniques via Python Notebook
+- Uploaded source data file of extracted Elon Musk tweets via Tweety API
+- Included images of dimensionality reduction 2D solutions, as well as dbSCAN clusters
+- Included example positively and negatively classified tweets
+- Included full slideshow presentation outling overall purpose, procedure, evaluation, and conclusion
 
 #### Code Structure
 
-- Desc of code structure (outline entire process, each line is new section: loading/downloading data)
-- Desc of code structure (technical NLP issues)
-- Desc of code structure (baseline models)
-- Desc of code structure (tuning best model)
-- Desc of code structure (evaluating performance and findings)
-- Desc of code structure (application to real world implications)
-
+- Loaded Kaggle dataset of Tweety API scared tweets
+- Resovled syntax issues using regexNLP techniques (special characters, hashtags, extra white space, etc.)
+- TF-IDF Vectorized text to extract words as features into dense matrix
+- Performed dimensionality reduction to create 2D solution to represent features (PCA, t-SNE)
+- Applied dbSCAN to cluster Tweets (Positive, Negative)
+- Built 5 baseline models (Logisitc Regression, SVM, Decision Tree, Random Forest, Sequential Neural Network)
+- Evaluated accuracy performance for each model in classifying sentiment 
 
 ## Example Commands to Execute Code
 
@@ -48,14 +50,23 @@ python ./sh  SCRIPT_FILE_NAME
 
 ## Results and Observations
 
-#### Model Performance
+#### Model Performances
 
-The best model performed with an AUC of XXX. Likewise, it's precision and recall were X and Y, respectively.
-- INCLUDE: Images of AUC curves
+The baseline model accuracies are as follows:
+| Model                  | Accuracy |
+| ---------------------- | -------- |
+| Logistic Regression    | 0.9355   |
+| Support Vector Machine | 0.5339   |
+| Decision Tree          | 0.8102   |
+| Random Forest          | 0.9558   |
+| Sequential Dense NN    | 0.8998   |
+
+
 
 #### Best Model Parameters/Architecture
 
-The best performing model had the follow paramters:
+The best performing model was the Random Forest. It was tuned on various parameters and values to improve accuracy.
+The best performing Random Forest model had the following paramters:
 
 | Parameter | Value |
 | --------- | ----- |
@@ -67,20 +78,17 @@ The best performing model had the follow paramters:
 
 #### Most Predictive Features
 
-The top 10 most predictive and influential feature (words) that led to predictive success followed:
-
-1. Feature 1
-2. Feature 2
-3. Feature 3
-4. Feature 4
-5. Feature 5
-6. Feature 6
-7. Feature 7
-8. Feature 8
-9. Feature 9
-10. Feature 10
-
-- INCLUDE: Images of SHAP sentiment analysis features (Beeswarm/Waterfall chart)
+Some of the vectorized Tweet features that led to positive sentiment labeled tweets follow:
+1. absolutely
+2. exactly
+3. good
+4. great
+5. interesting
+6. like
+7. real
+8. right
+9. work
+10. yeah
 
 
 ## Recommendations based on Observations Going Forward
