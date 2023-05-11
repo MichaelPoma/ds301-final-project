@@ -50,6 +50,15 @@ python ./sh  SCRIPT_FILE_NAME
 
 ## Results and Observations
 
+#### Clustering and Example Labeled Tweets
+
+The dbSCAN clustering output as well as some examples for the positively and negtively labeled Tweets are as follow:
+<p align="center">
+  <img alt="dbSCAN output" src="dbSCAN.png" width="40%">
+  <img alt="Positive/Negaive Tweets" src="pos_neg_tweets.png" width="40%">
+</p>
+
+
 #### Model Performances
 
 The baseline model accuracies are as follows:
