@@ -8,8 +8,7 @@
 ## Code and Resources Used
 
 **Python Version:** 3.8.12\
-**Installations:** SpellChecker (65.6.3)\
-**Packages:** tensorflow, keras, sklearn, pandas, numpy, matplotlib\
+**Packages:** tensorflow, keras, nltk, sklearn, pandas, numpy, matplotlib, scipy, tqdm, datetime\
 **Source Reference:** [Kaggle Notebook](https://www.kaggle.com/datasets/gpreda/elon-musk-tweets)
 
 
