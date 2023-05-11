@@ -50,21 +50,17 @@ python ./sh  SCRIPT_FILE_NAME
 
 ## Results and Observations
 
-#### Dimensionality Reduction 2D Solutions
+#### Dimensionality Reduction and Clustering Solutions
 
-The 2D solutions for the Principal Component Analysis and t-SNE are as follow:
+The 2D solutions for the Principal Component Analysis and t-SNE, as well as the dbSCAN output are as follow:
 <p align="center">
-  <img alt="PCA 2D Solution" src="pca_2d_solution.png" width="40%">
-  <img alt="t-SNE 2D Solution" src="tsne_2d_solution.png" width="40%">
+  <img alt="PCA 2D Solution" src="pca_2d_solution.png" width="30%">
+  <img alt="t-SNE 2D Solution" src="tsne_2d_solution.png" width="30%">
+  <img alt="dbSCAN Output" src="dbSCAN.png" width="30%">
 </p>
 
 
-#### Clustering and Example Labeled Tweets
-
-The dbSCAN clustering output is as follows:
-<p align="center">
-  <img alt="dbSCAN Output" src="dbSCAN.png" width="50%">
-</p>
+#### Example Newly Labeled Tweets
 
 Some examples for the positively and negtively labeled Tweets also follow:
 <p align="center">
