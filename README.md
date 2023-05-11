@@ -86,12 +86,13 @@ The baseline model accuracies are as follows:
 The best performing model was the Random Forest. It was tuned on various parameters and values to improve accuracy.
 The best performing Random Forest model had the following paramters:
 
-| Parameter | Value |
-| --------- | ----- |
-| PARAM_A   | XXXXX |
-| PARAM_B   | XXXXX |
-| PARAM_C   | XXXXX |
-| PARAM_D   | XXXXX |
+| Parameter         | Range of Values | Value |
+| ----------------- | --------------- | ----- |
+| n_estimators      | [50, 100, 250]  | 100 |
+| max_depth         | [2, 5, 8]       | 8 |
+| min_samples_split | [2, 5, 10]      | 5 |
+
+What was interesting was that the model accuracy actually decreased to 0.8229. A possible explanation for this was that it may have accounted for overfitting, hence reducing the accuracy.
 
 
 #### Most Predictive Features
