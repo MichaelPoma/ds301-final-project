@@ -3,7 +3,7 @@
 - The project focused on the time period during Musk’s acquisition of Twitter from July 2022 to November 2022.
 - Using Natural Language Processing, we apply the necessary unsupervised machine learning and deep learning techniques on the unlabelled Twitter data. 
 - With such labeled Tweets, we are able to successfully classify Musk's Tweets for either positive or negative sentiment.
-- Going forward, we hop to continue to explore the impact Musk has in other fields like the stock market, regulatory policy, innovation, etc.
+- Going forward, we hope to continue to explore the impact Musk has in other fields like the stock market, regulatory policy, innovation, etc.
 
 
 ## Code and Resources Used
@@ -95,8 +95,10 @@ Some of the vectorized Tweet features that led to positive sentiment labeled twe
 
 - Apply to stock predictions of Twitter
 - Compare to stock value of TSLA and other Musk companies
-- See how tweet sentiment stears direction of Twitter climate
+- See how Tweet sentiment stears direction of Twitter climate
 - Analyze prominence in News media
+- Capture more, updated data on Musk's recent Tweets
+- Analyze Twitter replies to many of Musk's tweets to understand impact from customer perspective
 
 
 
