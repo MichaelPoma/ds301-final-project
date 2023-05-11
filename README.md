@@ -54,9 +54,9 @@ python ./sh  SCRIPT_FILE_NAME
 
 The 2D solutions for the Principal Component Analysis and t-SNE, as well as the dbSCAN output are as follow:
 <p align="center">
-  <img alt="PCA 2D Solution" src="pca_2d_solution.png" width="30%">
-  <img alt="t-SNE 2D Solution" src="tsne_2d_solution.png" width="35%">
-  <img alt="dbSCAN Output" src="dbSCAN.png" width="35%">
+  <img alt="PCA 2D Solution" src="pca_2d_solution.png" width="25%">
+  <img alt="t-SNE 2D Solution" src="tsne_2d_solution.png" width="30%">
+  <img alt="dbSCAN Output" src="dbSCAN.png" width="30%">
 </p>
 
 
