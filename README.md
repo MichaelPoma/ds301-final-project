@@ -35,17 +35,15 @@
 
 ## Example Commands to Execute Code
 
-- Run the Python command in the terminal/console to run the model on the given Tweet data
-- The first argument is the Python notebook file, and the second argument is the source data file
+- Download the Python Notebook file as well as the "musk_tweets.csv" data file
+- Open the notebook in a compatible environment, such as Jupyter Notebook or Google Colab
+- Run the code cells in order
+- **Note:** installation the following libraries may be necessary and run the additional code:
 ```
-python gen_tweet_analysis DATA_FILE_NAME
-```
-
-- Run the Script command in the terminal/console to run the model on the given Tweet data
-- The first argument is the Sheel running command, and the second argument is the Script file
-- Make sure the source data is stored in the same location, titled "tweet_data.csv" 
-```
-python ./sh  SCRIPT_FILE_NAME
+pip install sia
+pip install nltk
+nltk.download('stopwords')
+nltk.download('vader_lexicon')
 ```
 
 ## Results and Observations
