@@ -37,7 +37,8 @@
 
 - Download the Python Notebook file as well as the "musk_tweets.csv" data file
 - Open the notebook in a compatible environment, such as Jupyter Notebook or Google Colab
-- Run the code cells in order
+- Run the code cells in order from top to bottom, making sure all installations are up to date
+- Ensure data file is stored in same location as .ipynb file
 - **Note:** installation the following libraries may be necessary and run the additional code:
 ```
 pip install sia
