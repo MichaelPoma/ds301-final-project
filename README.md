@@ -42,9 +42,14 @@
 ```
 pip install sia
 pip install nltk
+pip install wordcloud
 nltk.download('stopwords')
 nltk.download('vader_lexicon')
 ```
+#### Further Local Analysis
+- Application of the SIA library can be used to generate sentiment labels (positive, negative, neutral)
+- Visualization of most impactful features for each class can be displayed through the WordCloud library
+- CountVectorizer may be imported as opposed to TfidfVectorizer through sklearn for feature extraction
 
 ## Results and Observations
 
